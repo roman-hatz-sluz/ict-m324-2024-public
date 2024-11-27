@@ -1,6 +1,6 @@
-# ict-m324
+# ict-m324 - Programmieraufgabe 1
 
-## Aufgabe: Node.js-Setup, Paketmanagement, Linting, Formatting und Testing
+## Node.js-Setup, Package Management, Linting, Formatting, Testing
 
 1. [Voraussetzungen](#voraussetzungen)
 2. [Projekt Setup und Paketmanagement](#projekt-setup-und-paketmanagement)

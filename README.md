@@ -120,11 +120,7 @@
    npm run lint
    ```
 
-   - Führen Sie das Linting aus:
-
-   ```bash
-   npm run lint
-   ```
+   - Fixen Sie die Linter Fehlermeldungen: 'describe' is not defined  no-undef
 
    - Testen Sie den Linter, indem Sie folgende Fehlerfälle im Code einbauen. Achten Sie auf die Fehlermeldungen von ESLint:
      - Nicht verwendete Variable

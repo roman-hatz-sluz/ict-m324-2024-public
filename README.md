@@ -77,6 +77,7 @@
   ```
 
 4. **Paketmanagement und Updates**:
+
    - Installieren Sie eine ältere Version von `chalk`. Ändern Sie die Version in package.json und führen Sie `npm install` aus.
    - Installieren Sie `npm-check-updates` und aktualisieren Sie Ihre Pakete:
      ```bash
@@ -85,6 +86,15 @@
      ncu -u
      npm install
      ```
+
+   ## Konflikte lösen
+
+   - Führen Sie `npm install eslint@3.12.1` aus.
+   - Anschliessend `npm install babel-eslint@10.1.0`
+   - Es tritt ein Problem auf. Achten Sie auf die Fehlerausgabe.
+   - Welche Version von welchem Paket ist die Mindestanforderung?
+   - Lösen Sie das Problem.
+   - Aktualisieren Sie am Schluss eslint wieder auf die neueste Version und entfernen Sie babel-eslint.
 
 ---
 
@@ -121,7 +131,7 @@
    ```
 
    - Fixen Sie die Linter Fehlermeldungen: `'describe' is not defined  no-undef`
-     Erweitern Sie die ESLint Config mit `globals.mocha`. 
+     Erweitern Sie die ESLint Config mit `globals.mocha`.
 
    - Testen Sie den Linter, indem Sie folgende Fehlerfälle im Code einbauen. Achten Sie auf die Fehlermeldungen von ESLint:
      - Nicht verwendete Variable

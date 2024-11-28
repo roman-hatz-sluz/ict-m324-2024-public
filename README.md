@@ -155,9 +155,7 @@
    - Schreiben Sie ein weiteres Formatting-Skript und "format-check". Dieses Skript soll die Dateien nicht verändern und nur Formatierungsfehler ausgeben.
    - Testen Sie den Formatter, indem Sie z.B. Leerzeichen an den Anfang einer Datei anfügen.
 
-- ```
-
-  ```
+ 
 
 ---
 

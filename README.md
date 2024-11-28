@@ -87,7 +87,7 @@
      npm install
      ```
 
-   ## Konflikte lösen
+   ***Konflikte lösen***
 
    - Führen Sie `npm install eslint@3.12.1` aus.
    - Anschliessend `npm install babel-eslint@10.1.0`

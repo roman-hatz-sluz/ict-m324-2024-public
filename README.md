@@ -79,13 +79,8 @@
 4. **Paketmanagement und Updates**:
 
    - Installieren Sie eine ältere Version von `chalk`. Ändern Sie die Version in package.json und führen Sie `npm install` aus.
-   - Installieren Sie `npm-check-updates` und aktualisieren Sie Ihre Pakete:
-     ```bash
-     npm install npm-check-updates
-     ncu
-     ncu -u
-     npm install
-     ```
+   - Installieren Sie `npm-check-updates` und aktualisieren Sie Ihre Pakete: https://www.npmjs.com/package/npm-check-updates
+     
 
    ***Konflikte lösen***
 

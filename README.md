@@ -125,9 +125,6 @@
    npm run lint
    ```
 
-   - Fixen Sie die Linter Fehlermeldungen: `'describe' is not defined  no-undef`
-     Erweitern Sie die ESLint Config mit `globals.mocha`.
-
    - Testen Sie den Linter, indem Sie folgende Fehlerfälle im Code einbauen. Achten Sie auf die Fehlermeldungen von ESLint:
      - Nicht verwendete Variable
      - Nicht definierte Variable
@@ -203,7 +200,7 @@
        "test": "mocha"
      }
      ```
-   -
+   - Checken Sie den Code mit `npm run lint`. Fixen Sie die Linter Fehlermeldungen: 'describe' is not defined  no-undef Erweitern Sie die ESLint Config mit globals.mocha.
 
 ```json
 "scripts": {

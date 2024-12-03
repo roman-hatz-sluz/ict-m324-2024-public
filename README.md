@@ -21,7 +21,9 @@ Lernziele:
 
 ### Repository erstellen und klonen
 
-- **Erstellen Sie ein neues Repository**: Legen Sie ein neues _public_ Repository auf GitHub.com an. Wählen Sie die Option "README.md" erstellen, damit es schon einen main Branch hat. Klonen Sie dann das Remote Repository auf Ihr lokales System.
+- **Erstellen Sie ein neues Repository**: Legen Sie ein neues _public_ Repository auf GitHub.com an. 
+Der Name des Repository sollte das Wort _m324-task-2-git_ und ihren _Vor- und Nachnamen_ enthalten. 
+- Wählen Sie die Option "README.md" erstellen, damit es schon einen main Branch hat. Klonen Sie dann das Remote Repository auf Ihr lokales System.
 - **Öffnen Sie das Repository in der IDE**: Nutzen Sie Ihre IDE, um das geklonte Repository für die Entwicklung vorzubereiten.
 
 ### Dateien initialisieren

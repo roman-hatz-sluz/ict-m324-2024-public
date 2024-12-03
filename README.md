@@ -83,7 +83,7 @@ Ein Pull Request oder Merge Request bezeichnet in der Versionsverwaltung einen A
 - Optional: Sie können Dateien oder Builds als **Assets** zum Release hinzufügen, indem Sie sie hochladen.
 - Klicken Sie auf **Publish release**, um das Release zu erstellen und öffentlich zu machen.
 
-### Website auf GitHub Pages veröffentlichen
+## 5. Website auf GitHub Pages veröffentlichen
 
 - Releasen Sie eine Website mit GitHub Pages.
 - Recherchieren Sie, wie eine Website mit GitHub Pages funktioniert.

@@ -86,11 +86,10 @@ Ein Pull Request oder Merge Request bezeichnet in der Versionsverwaltung einen A
 
 - Releasen Sie eine Website mit GitHub Pages.
 - Recherchieren Sie, wie eine Website mit GitHub Pages funktioniert.
-- Beim Inhalt ihrer Website sind Sie frei.
 - Als Resultat bekommen Sie eine URL, die öfffentlich erreichbar ist und den Inhalt der Datei index.html als Website darstellt.
 - Achten Sie auf die Einträge bei "Actions", um das Deployment nachzuvollziehen. Sie werden später ihre eigenen GitHub Actions erstellen. 
 
-## Zusatzaufgabe
-
-- Schreiben Sie einen Prozess für die Konvertierung von Markdown in HTML, den Sie automatisiert ausführen können (PowerShell/Bash). Beispiel: `sh convert.sh` konvertiert die Datei README.md in HTML und erstellt die Datei README.html.
-- Automatisieren Sie den Prozess. Das Ziel ist, dass nicht vergessen wird README.html zu updaten, wenn sich README.md ändert.
+## Automatisierung
+- Auf ihrer GitHub Pages Website soll diese README.md Datei ausgegeben werden. 
+- Schreiben Sie einen Prozess für die Konvertierung von Markdown in HTML, den Sie automatisiert ausführen können (PowerShell/Bash). Beispiel: `sh convert.sh` konvertiert die Datei README.md in HTML und erstellt die Datei index.html.
+- Automatisieren Sie den Prozess. Das Ziel ist, dass nicht vergessen wird index.html zu updaten, wenn sich README.md ändert.

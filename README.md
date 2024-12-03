@@ -192,23 +192,15 @@
    - Fügen Sie das Test-Skript hinzu:
      ```json
      "scripts": {
-       "test": "mocha"
+       "test": "mocha ./"
      }
      ```
- 
-
-```json
-"scripts": {
-  "test": "node node_modules/.bin/mocha ./"
-}
-```
-
-- Hinweis: Wenn es bei Windows nicht klappt, versuchen Sie: `node --experimental-vm-modules node_modules/.bin/mocha ./`
-
+  
 - Führen Sie die Tests aus:
   ```bash
   npm run test
   ```
+- Hinweis: wenn `mocha ./` nicht funktioniert, versuchen Sie es mit `node node_modules/.bin/mocha ./` oder `node --experimental-vm-modules node_modules/.bin/mocha ./`. 
 - Checken Sie den Code mit `npm run lint`. Fixen Sie die Linter Fehlermeldungen: 'describe' is not defined  no-undef Erweitern Sie die ESLint Config mit globals.mocha.
 
 2. **Zusätzliche Tests hinzufügen**:

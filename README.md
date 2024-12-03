@@ -1,6 +1,7 @@
-# ict-m324
+# ict-m324 - Programmieraufgabe 2
 
-DevOps-Prozesse mit Tools unterstützen:
+## Git, GitHub, Automatisierung
+
 Git ist eine Software, mit der Sie Änderungen an einem Projekt im Laufe der Zeit verfolgen können.
 Ein DevOps Engineer nutzt Git täglich für die Arbeit an Code, Infrastruktur und Deployment-Prozessen, wodurch es eines der wichtigsten Tools im DevOps-Toolkit ist.
 
@@ -85,6 +86,7 @@ Ein Pull Request oder Merge Request bezeichnet in der Versionsverwaltung einen A
 - Recherchieren Sie, wie eine Website mit GitHub Pages funktioniert.
 - Beim Inhalt ihrer Website sind Sie frei.
 - Als Resultat bekommen Sie eine URL, die öfffentlich erreichbar ist und den Inhalt der Datei index.html als Website darstellt.
+- Achten Sie auf die Einträge bei "Actions", um das Deployment nachzuvollziehen. Sie werden später ihre eigenen GitHub Actions erstellen. 
 
 ## Zusatzaufgabe
 

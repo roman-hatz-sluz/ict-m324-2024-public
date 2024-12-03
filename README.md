@@ -9,6 +9,7 @@ Lernziele:
 
 - Grundlagen von Versionskontrolle, Branching, Pull Requests und Konfliktlösung.
 - Erstellen von Releases und Hosting mit GitHub Pages.
+- Automatisierung Skript schreiben
 
 ## 1. Einrichtung: Ihr Entwicklungs-Setup
 

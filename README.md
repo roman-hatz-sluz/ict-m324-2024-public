@@ -204,4 +204,4 @@
 - Checken Sie den Code mit `npm run lint`. Fixen Sie die Linter Fehlermeldungen: 'describe' is not defined  no-undef Erweitern Sie die ESLint Config mit globals.mocha.
 
 2. **Zusätzliche Tests hinzufügen**:
-   - Verbessern Sie die Code Coverage durch weitere Tests, z.B. ob Dezimalzahlen korrekt berechnet werden.
+   - Erstellen Sie zwei weitere Tests, z.B. ob Dezimalzahlen korrekt berechnet werden.

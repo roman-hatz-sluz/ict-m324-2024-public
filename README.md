@@ -14,11 +14,11 @@ Lernziele:
 ## 1. Einrichtung: Ihr Entwicklungs-Setup
 
 ### Entwicklungsumgebung vorbereiten
-
-1. **Installieren Sie Ihre bevorzugte IDE**: Wählen Sie eine IDE wie Visual Studio Code und installieren Sie diese, um eine effiziente Entwicklungsumgebung zu schaffen.
-2. **Installieren Sie Git**: [Git Installation](https://git-scm.com/downloads) – das zentrale Tool für die Versionskontrolle Ihres Projekts.
-3. **Erstellen Sie ein GitHub-Konto**: Registrieren Sie sich auf GitHub, um Ihre Projekte online zu verwalten. [GitHub Registrierung](https://github.com/join)
-4. **Installieren Sie GitHub Desktop**: Empfehlung: Falls Sie noch kein Tool haben, nutzen Sie GitHub Desktop, um Ihre Repositories visuell zu verwalten. [GitHub Desktop herunterladen](https://desktop.github.com/)
+Falls Sie noch nie mit Git und GitHub gearbeitet haben.
+1. **Installieren Sie Ihre bevorzugte IDE**: 
+2. **Installieren Sie Git**:  
+3. **Erstellen Sie ein GitHub-Konto**:  
+ 
 
 ### Repository erstellen und klonen
 

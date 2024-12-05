@@ -15,9 +15,9 @@ Lernziele:
 
 ### Entwicklungsumgebung vorbereiten
 Falls Sie noch nie mit Git und GitHub gearbeitet haben.
-1. **Installieren Sie Ihre bevorzugte IDE**: 
-2. **Installieren Sie Git**:  
-3. **Erstellen Sie ein GitHub-Konto**:  
+1. **Installieren Sie Ihre bevorzugte IDE**
+2. **Installieren Sie Git**
+3. **Erstellen Sie ein GitHub-Konto** 
  
 
 ### Repository erstellen und klonen

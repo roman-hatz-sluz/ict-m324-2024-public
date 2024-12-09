@@ -32,7 +32,7 @@ services:
     networks:
       - mynet
 
-  # SQLite (wird als persistentes Volumen verwendet, da SQLite eine dateibasierte DB ist)
+  # SQLite (SQLite ist eine dateibasierte DB)
   sqlite:
     image: nouchka/sqlite3
     container_name: sqlite-demo
@@ -40,7 +40,7 @@ services:
       - sqlite_data:/db
     networks:
       - mynet
-    command: tail -f /dev/null # SQLite läuft in einem statischen Zustand
+    command: tail -f /dev/null # sorgt dafür, dass der Container nicht stoppt
 
   # MongoDB
   mongo:

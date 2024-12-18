@@ -1,4 +1,4 @@
-# ict-m324
+# ict-m324 - Programmieraufgabe 3 - GitHub Actions
 
 Git Actions für CI/CD
 
@@ -6,9 +6,9 @@ Git Actions für CI/CD
 
 Implementieren Sie GitHub Actions, um die Automatisierung von Linting, Formatting und Testing sicherzustellen, sobald Pull Requests (PRs) geöffnet oder aktualisiert werden.
 
-### Einrichtung der GitHub Actions
+### Setup
 
-Verwenden Sie ihr GitHub Repository aus der letzten Aufgabe. Alternativ können Sie die Musterlösung in diesem Repo verwenden.
+Verwenden Sie ihr GitHub Repository aus der letzten Aufgabe oder die Musterlösung [https://github.com/roman-hatz-sluz/ict-m324-2024-public/blob/task-1-npm-solution/README.md. ](https://github.com/roman-hatz-sluz/ict-m324-2024-public/tree/task-1-npm-solution)
 
 ### Erstellen der GitHub Actions Konfigurationsdatei
 
@@ -95,6 +95,7 @@ Sobald act installiert ist, können Sie Ihre GitHub Actions lokal ausführen.
 
 - Fügen Sie einen Job hinzu, um Viren zu scannen. Verwenden Sie an der richtigen Stelle: `- uses: 'hugoalh/scan-virus-ghaction@latest'`
 - Der Virenscan dauert ziemlich lange. Testen Sie die Action und fügen Sie anschliessend an der richtigen Stelle folgenden Code hinzu, um den Scanner zu skippen: `if: 1 == 2`.
+- Challenge: wie können Sie den Virenscanner testen?
 
 ### Fun with GitHub Actions
 
@@ -103,7 +104,13 @@ Sobald act installiert ist, können Sie Ihre GitHub Actions lokal ausführen.
 - Erstellen Sie im Ordner `.github/workflows` eine Datei Datei `pr-comment.yml`.
 - Verwenden Sie diesen Code `uses: thollander/actions-comment-pull-request@v2`
 
-### Even more fun with GitHub Actions
+### Tutorial GuillaumeFalourd/poc-github-actions
 
-- Finden Sie bei https://github.com/marketplace/actions/ eine beliebige weitere Action und installieren Sie diese.
+- Öffnen Sie https://github.com/GuillaumeFalourd/poc-github-actions?tab=readme-ov-file und scrollen Sie nach unten.
+- Es gibt 70+ Examples. Überfliegen Sie die Liste.
+- Implementieren Sie 3 beliebige Examples. Mindestens eine Action muss `schedule`verwenden.
+
+### GitHub Actions Marketplace
+
+- Suchen Sie bei https://github.com/marketplace/actions/ eine beliebige weitere Action und installieren Sie diese.
 - Verwenden Sie den Event `schedule` in ci.yml.

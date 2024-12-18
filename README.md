@@ -50,7 +50,7 @@ jobs:
 - Ändern Sie die Bezeichungen bei `name` und verwenden Sie einen eigenen Namen für `lint-format-test`.
 - Weshalb ist `run: npm install` nicht optimal für einen Deployment Prozess? Es sollte ein anderer NPM Befehl verwendet werden.
 
-### Konfiguration testen
+### Konfiguration erweitern und testen
 
 - Testen Sie ihre GitHub Action, indem Sie einen Pull Request (PR) bei GitHub erstellen.
 - Es sollte folgendes passieren: Wenn es keine Fehler beim Linting, Formatter und Testing gibt, sollte der Merge Button grün werden und Sie können den Branch mergen.
@@ -78,16 +78,16 @@ Sobald act installiert ist, können Sie Ihre GitHub Actions lokal ausführen.
   Dieser Befehl führt den Standard-GitHub Actions Workflow (on: push) in Ihrer ci.yml oder einer anderen Workflow-Datei aus.
 - `act pull_request`: Ausführen Sie den Workflow für Pull Requests.
 
-### Testen Sie ihren Workflow aus (1) mit act.
+### Testen Sie ihren Workflow aus (1) mit act 
 
 - Bauen Sie Linter, Formatter und Testing Fehler ein, um den Workflow zu testen.
 - Entfernen Sie die Fehler anschliessend wieder.
 
-### Testen Sie ihren Workflow auf GitHub aus.
+### Testen Sie ihren Workflow auf GitHub 
 
 - Pushen Sie ihren main Branch und erstellen Sie einen neuen Branch und einen Pull Request.
-- Öffnen Sie das Actions Log auf GitHub. Der Link sollte so aussehen: https://github.com/roman-hatz-sluz/ict-m324/actions/. Sie sehen hier alle Actions, die Sie ausgeführt haben.
-- Öffnen Sie Pull Requests auf GitHub. Der Link sollte so aussehen: https://github.com/roman-hatz-sluz/ict-m324/pulls. Klicken Sie auf ihren Pull Request und suchen Sie die Ausgabe ihres Workflows.
+- Öffnen Sie das Actions Log auf GitHub. Sie sehen hier alle Actions, die Sie ausgeführt haben.
+- Öffnen Sie Pull Requests auf GitHub. Suchen Sie die Ausgabe ihres Workflows.
 
 ## (3) More to do
 
